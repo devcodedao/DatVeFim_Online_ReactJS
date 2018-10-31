@@ -1,0 +1,27 @@
+.quickBooking {
+    border: 1px solid grey;
+    height: 100px;
+    background-color: #ffffff;
+    margin-top:-20px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    margin-bottom: 50px;
+
+    padding:15px;
+}
+.custom-select:focus {
+    outline: none;
+    border:none;
+}
+.btn-quickBuy {
+    color:white;
+    background-color:yellowgreen;
+    font-weight: 700;
+    font-size:20px;
+    padding:5px 30px;
+    text-align: center;
+}
+.btn-quickBuy:hover {
+    color:orangered;
+}

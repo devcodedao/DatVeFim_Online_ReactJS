@@ -1,0 +1,49 @@
+.card {
+    position: relative;
+    z-index: 0;
+    background-color:mintcream;
+}
+.fa-star {
+    color:yellowgreen
+}
+.bg-blur {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color:rgba(0,0,0,0.6);
+    z-index: -1;
+    opacity: 0;
+    transform:scale(0);
+    transition:.3s;
+}
+.card:hover .bg-blur{
+    opacity: 1;
+    transform:scale(1);
+    z-index: 1;
+    
+}
+.bg-blur--content {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.watch-trailer {
+    font-size: 60px;
+    color:white;
+}
+.fa-play-circle:hover {
+    color:gray;
+}
+.btn-buyTicket {
+    color:white;
+    background-color:yellowgreen;
+    font-weight: 700;
+    font-size:20px;
+    padding:5px 30px;
+    text-align: center;
+}
+.btn-buyTicket:hover {
+    color:orangered;
+}

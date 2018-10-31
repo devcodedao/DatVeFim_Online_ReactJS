@@ -1,0 +1,14 @@
+.news-state {
+    font-size:30px;
+    font-weight: 500;
+    color:#fff;
+    transition:0.3s;
+    box-sizing: border-box;
+}
+.news-state:hover {
+    text-decoration:none;
+    color:orangered;
+}
+.active {
+    color:orangered;
+}

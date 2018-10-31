@@ -1,0 +1,19 @@
+.booking-result {
+  position: relative;
+  height: 500px;
+}
+.movie-img-selected {
+  position: absolute;
+  z-index: 1;
+  width: 370px;
+  height: 490px;
+}
+.booking-result-bill {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  width: 300px;
+  color:orangered;
+}

@@ -6,9 +6,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #212529;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (max-width: 375px) {
+  .movie-img-selected {
+    width: 300px !important;
+    margin-left: 30px;
+  }
+  .box {
+    width: 350px !important;
+  }
+  .container-wrap {
+    width: 100% !important;
+  }
+  .movie-img {
+    width: 300px !important;
+  }
+  .movie-info {
+    padding: 0px !important;
+  }
+  .movie-trailer {
+    width: 100%!important;
+  }
 }

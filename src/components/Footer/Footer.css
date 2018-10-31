@@ -1,0 +1,18 @@
+.footer-content{
+    padding:10px 20px;
+    margin-bottom:0;
+}
+.navbar-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: brown!important;
+    /* background-color: grey; */
+}
+.sub-logo {
+    color: greenyellow;
+}
+.text {
+    border-left: 1px solid grey;
+    color:grey;
+    padding-left:10px;
+}

@@ -1,0 +1,6 @@
+.btn-seat:hover {
+    background-color: greenyellow;
+}
+.btn-seat.disabled-btn{
+    cursor: not-allowed!important;
+}

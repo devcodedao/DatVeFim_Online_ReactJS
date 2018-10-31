@@ -1,0 +1,67 @@
+.navbar-logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: brown !important;
+  /* background-color: grey; */
+  padding: 10px 20px;
+}
+.sub-logo {
+  color: greenyellow;
+}
+nav {
+  font-size: 18px;
+}
+.nav-link {
+  color: #fff !important;
+}
+.active {
+  color: orangered !important;
+}
+.btn-login {
+  cursor: pointer;
+}
+.btn-login:hover {
+  color: orangered !important;
+}
+.userLogined {
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+}
+.btnInfo {
+  cursor: pointer;
+  padding: 10px 15px 0;
+  font-size: 16px;
+  color:black;
+  text-decoration: none;
+}
+.info {
+  position: absolute;
+  top: 30px;
+  right: -10px;
+  background-color: #fff;
+  z-index: 2;
+  cursor: pointer;
+  transform: scale(0);
+  transition: 0.5s;
+  padding-top: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.fa-angle-down {
+  transition: 0.5s;
+}
+.userLogined:hover .userLoginedName {
+  color: orangered !important;
+}
+.userLogined:hover .info {
+  transform: scale(1);
+}
+.userLogined:hover .fa-angle-down {
+  transform: rotate(-180deg);
+}
+
+.btnInfo:hover {
+  color: greenyellow;
+  text-decoration: none;
+}

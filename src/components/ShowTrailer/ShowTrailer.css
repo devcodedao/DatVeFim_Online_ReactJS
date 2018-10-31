@@ -1,0 +1,40 @@
+
+.box-Trailer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 2;
+	background-color:rgba(0,0,0,0.1);
+	box-sizing: border-box;
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+}
+.boxbox-Trailer h2 {
+	margin: 0 0 30px;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+}
+
+.ScaleIn {
+	transform:translate(-50%,-50%) scale(1);
+	transition:.5s;
+	position: fixed;
+	/* z-index: 2; */
+	
+}
+.ScaleOut {
+	transform :translate(-50%,-50%) scale(0);
+	transition:.5s;
+	/* z-index: -1; */
+}
+.showTrailer {
+	position: absolute;
+	top:50%;
+	left:50%;
+	width: 80%;
+	height: 80%;
+	transform:translate(-50%,-50%);
+}

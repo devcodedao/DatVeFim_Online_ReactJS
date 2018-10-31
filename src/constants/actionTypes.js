@@ -1,0 +1,15 @@
+export const OPEN_FORM = "OPEN_FORM";
+export const CLOSE_FORM = "CLOSE_FORM";
+export const SHOW_TRAILER = "SHOW_TRAILER";
+export const TOGGLE_SELECTED_SEAT = "TOGGLE_SELECTED_SEAT";
+
+export const ADD_NEW_USER = "ADD_NEW_USER";
+export const UPDATE_USER = "UPDATE_USER";
+export const USER_LOGIN = "USER_LOGIN";
+export const FETCH_MOVIES = "FETCH_MOVIES";
+export const FETCH_DETAIL_MOVIE = "FETCH_DETAIL_MOVIE";
+export const SHOW_DETAIL_TICKET_ROOM = "SHOW_DETAIL_TICKET_ROOM";
+
+export const FETCH_ALL_USERS = "FETCH_ALL_USERS";
+export const BOOKING_TICKETS = "BOOKING_TICKETS";
+export const BUY_FOOD = "BUY_FOOD";

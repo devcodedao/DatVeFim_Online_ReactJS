@@ -1,0 +1,5 @@
+.carousel-control-next,.carousel-control-prev {
+    width: 5%;
+    /* top: 50%;
+    transform: translateY(-50%); */
+}
